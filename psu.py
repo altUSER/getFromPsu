@@ -24,7 +24,3 @@ def getTT(id):
         tt.append(el_d)
 
     return(tt)
-
-
-
-print(getTT(id))
