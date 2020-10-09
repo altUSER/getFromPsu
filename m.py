@@ -67,4 +67,7 @@ class MainApp(App):
 
 if __name__ == '__main__':
     app = MainApp()
-    app.run()
+    try:
+        app.run()
+    except:
+        print("Some error")
